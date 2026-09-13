@@ -6,7 +6,7 @@ const base = process.env.GITHUB_ACTIONS ? '/danki-wiki/' : '/'
 export default withMermaid(
   defineConfig({
     title: 'Danki Wiki',
-    description: 'Modern, clean & minimalist documentation template built with VitePress',
+    description: 'Пользовательская документация для строительного проекта Danki',
     lang: 'ru-RU',
     base: base,
 
@@ -22,7 +22,10 @@ export default withMermaid(
       ['link', { rel: 'alternate icon', href: `${base}favicon.ico?v=2` }],
       ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
       ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
-      ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200' }]
+      ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200' }],
+      ['meta', { property: 'og:description', content: 'Пользовательская документация для строительного проекта Danki' }],
+      ['meta', { property: 'og:title', content: 'Danki Wiki' }],
+      ['meta', { property: 'og:site_name', content: 'Danki Wiki' }]
     ],
 
     themeConfig: {
