@@ -3,7 +3,7 @@
 ::: tip Поддержать проект
 Оплата сервера финансируется исключительно за счет добровольных пожертвований и [покупки косметики](./cosmetics.md). Вклад глубоко ценится, позволяет серверу существовать и держать планку качества.
 
-<span class="material-symbols-outlined">favorite</span> **[Перейти на страницу пожертвований](https://dalink.to/florentemm)**
+<svg style="display: inline-block; vertical-align: -0.2em; width: 1.2em; height: 1.2em; margin-right: 0.35rem;" viewBox="0 0 24 24"><path fill="currentColor" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>**[Перейти на страницу пожертвований](https://dalink.to/florentemm)**
 :::
 
 Все деньги, собранные поверх нужд в текущем месяце, откладываются на будущее.
@@ -23,9 +23,9 @@
 
 | Участник | Сумма поддержки |
 | :--- | :--- |
-| <span class="material-symbols-outlined">counter_1</span> **Peepo_salo** | 4 500 ₽ |
-| <span class="material-symbols-outlined">counter_2</span> **керпок** | 3 050 ₽ |
-| <span class="material-symbols-outlined">counter_3</span> **hiplay** | 2 400 ₽ |
+| **Peepo_salo** | 4 500 ₽ |
+| **керпок** | 3 050 ₽ |
+| **hiplay** | 2 400 ₽ |
 | **Анонимные участники** | 2 202 ₽ |
 | **Ut0p1sT** | 2 040 ₽ |
 | **MrFlint** | 1 250 ₽ |
