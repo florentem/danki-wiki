@@ -26,7 +26,7 @@ export default withMermaid(
     ],
 
     themeConfig: {
-      siteTitle: '<span class="material-symbols-outlined" style="vertical-align: -0.15em;">inventory_2</span> Danki Wiki',
+      siteTitle: '<span class="material-symbols-outlined" style="vertical-align: -0.15em; color: #DCB1ED;">architecture</span> Danki Wiki',
 
       socialLinks: [
         { icon: 'discord', link: 'https://discord.gg/9eFuzA343a', ariaLabel: 'Discord' },
