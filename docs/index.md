@@ -63,8 +63,3 @@ features:
 ### <span class="material-symbols-outlined">extension</span> Дополнительно
 * [Инструменты сервера Редстоун](/features/redstone-tools) — боты, счетчики воронок, тиковые зоны, запись редстоуна и команды Carpet.
 * [Плагины и моды](/features/features) — установленные на серверах модификации.
-
----
-
-> **НЕ ЯВЛЯЕТСЯ ОФИЦИАЛЬНЫМ СЕРВИСОМ MINECRAFT. НЕ ОДОБРЕНО И НЕ СВЯЗАНО С MOJANG ИЛИ MICROSOFT.**  
-> Проект является независимым строительным сервером и не имеет отношения к официальным ресурсам и администрации Pepeland ([pepeland.net](https://www.pepeland.net)).
