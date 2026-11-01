@@ -2,8 +2,8 @@
 
 ## <span class="material-symbols-outlined">layers</span> Версии
 
-* **Ядро**: `Paper 26.2`
-* Никакие клиентские моды не требуются. При желании — [Axiom](https://modrinth.com/project/N6n5dqoA) версии 5.x и другие клиентские моды со страницы [Плагины и моды](../features/features.md).
+* **Ядро**: `Paper 26.3`
+* Никакие клиентские моды не требуются. При желании — [Axiom](https://modrinth.com/project/N6n5dqoA) версии 6.x и другие клиентские моды со страницы [Плагины и моды](../features/features.md).
 
 ---
 
