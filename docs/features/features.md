@@ -50,14 +50,11 @@
 Команда для переключения между измерениями и подмирами текущего сервера:
 * `/worldtp <подмир>` (или `/dimension`) — переход в нужный подмир (например, `main`, `art`, `events`, архивные сезоны [Pepeland](https://www.pepeland.net)). Отображаются те подмиры, к которым у вас есть доступ.
 
-### [LitematicaFolia](https://modrinth.com/project/bEpr0Arc)
-Серверная поддержка вставки и парсинга схематик мода [Litematica](https://modrinth.com/project/bEpr0Arc) без спама командами в чат.
-
-### [PatPat](https://modrinth.com/project/dw7LChq9)
-Почёсывание по голове.
-
 ### [Ping Wheel](https://modrinth.com/project/QQXAdCzh)
 Метки и указатели на местности по нажатию клавиши бинда, подобные играм (например, Portal).
+
+### [Servux Plugin Edition](https://modrinth.com/project/b1qziGOa)
+Серверная поддержка вставки и парсинга схематик мода [Litematica](https://modrinth.com/project/bEpr0Arc) без спама командами в чат, а также поддержка некоторых других функций Litematica и MiniHUD.
 
 ### [Simple Voice Chat](https://modrinth.com/project/9eGKb6K1)
 Голосовой чат.
