@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/servers/community.md",
+                "file": "docs/general/access.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "community"
+              "title": "access"
             }
           }
         ]
@@ -190,21 +190,21 @@
   },
   "active": "f2c490344309c296",
   "lastOpenFiles": [
-    "docs/servers/lichtenstein.md",
+    "docs/general/contributing.md",
+    "docs/general/access.md",
     "docs/servers/lobby.md",
+    "docs/servers/lichtenstein.md",
     "docs/servers/overview.md",
+    "docs/servers/community.md",
     "docs/servers/redstone.md",
     "style-guide.md",
     "docs/index.md",
-    "docs/servers/community.md",
     "docs/features/redstone-tools.md",
     "docs/donations/cosmetics.md",
     "docs/public/favicon.svg",
     "docs/general/rules.md",
     "docs/general/requests.md",
-    "docs/general/contributing.md",
     "docs/general/connection.md",
-    "docs/general/access.md",
     "docs3/general/rules.md",
     "docs3/servers/redstone.md",
     "docs3/servers/overview.md",
