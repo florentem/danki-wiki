@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "style-guide.md",
+                "file": "docs/features/features.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "style-guide"
+              "title": "features"
             }
           }
         ]
@@ -190,6 +190,7 @@
   },
   "active": "f2c490344309c296",
   "lastOpenFiles": [
+    "style-guide.md",
     "docs/index.md",
     "docs/servers/redstone.md",
     "docs/general/access.md",
@@ -198,7 +199,6 @@
     "docs/servers/lichtenstein.md",
     "docs/servers/overview.md",
     "docs/servers/community.md",
-    "style-guide.md",
     "docs/features/redstone-tools.md",
     "docs/donations/cosmetics.md",
     "docs/public/favicon.svg",
