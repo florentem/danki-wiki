@@ -26,7 +26,7 @@ features:
     link: /servers/community
   - icon: '<span class="material-symbols-outlined">precision_manufacturing</span>'
     title: Сервер Редстоун
-    details: Инженерный сервер на Paper 26.3 с ботами, счётчиками воронок и тиковыми зонами.
+    details: Инженерный сервер с ботами, счётчиками воронок и тиковыми зонами.
     link: /servers/redstone
   - icon: '<span class="material-symbols-outlined">castle</span>'
     title: Сервер Лихтенштейн
