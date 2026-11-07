@@ -3,12 +3,42 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 
 const base = process.env.GITHUB_ACTIONS ? '/danki-wiki/' : '/'
 
+const rControl = /[\u0000-\u001f]/g
+const rSpecial = /[\s~`!@#$%^&*()\-_+=[\]{}|\\;:"'“”‘’<>,.?/]+/g
+const rCombining = /[\u0300-\u036F]/g
+
+const cleanSlugify = (str: string): string => {
+  let s = str.replace(/^[a-z0-9_]+\s+/, '')
+  s = s.replace(/й/g, '__c_yj__').replace(/Й/g, '__c_yj_u__')
+       .replace(/ё/g, '__c_yo__').replace(/Ё/g, '__c_yo_u__')
+  return s
+    .normalize('NFKD')
+    .replace(rCombining, '')
+    .replace(rControl, '')
+    .replace(/__c_yj__/g, 'й').replace(/__c_yj_u__/g, 'й')
+    .replace(/__c_yo__/g, 'ё').replace(/__c_yo_u__/g, 'ё')
+    .replace(rSpecial, '-')
+    .replace(/-{2,}/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .replace(/^(\d)/, '_$1')
+    .toLowerCase()
+}
+
 export default withMermaid(
   defineConfig({
     title: 'Danki Wiki',
     description: 'Пользовательская документация для строительного проекта Danki',
     lang: 'ru-RU',
     base: base,
+
+    markdown: {
+      anchor: {
+        slugify: cleanSlugify
+      },
+      headers: {
+        slugify: cleanSlugify
+      }
+    },
 
     // Автоматическая очистка названий вкладок браузера от лигатур иконок
     transformPageData(pageData) {
@@ -46,8 +76,8 @@ export default withMermaid(
         { text: 'Главная', link: '/' },
         { text: 'Общая информация', link: '/general/rules' },
         { text: 'Серверы и миры', link: '/servers/overview' },
-        { text: 'Инструменты редстоуна', link: '/features/redstone-tools' },
-        { text: 'Поддержка', link: '/donations/donations' }
+        { text: 'Инструменты сервера Редстоун', link: '/features/redstone-tools' },
+        { text: 'Кастомизация и поддержка', link: '/donations/donations' }
       ],
 
       sidebar: [
@@ -70,7 +100,7 @@ export default withMermaid(
             { text: 'Сервер Лобби', link: '/servers/lobby' },
             { text: 'Сервер Комьюнити', link: '/servers/community' },
             { text: 'Сервер Редстоун', link: '/servers/redstone' },
-            { text: 'Сервер Лихтенштейн', link: '/servers/circle' }
+            { text: 'Сервер Лихтенштейн', link: '/servers/lichtenstein' }
           ]
         },
         {
@@ -123,7 +153,7 @@ export default withMermaid(
 
       docFooter: {
         prev: 'Назад',
-        next: 'Вперед'
+        next: 'Вперёд'
       },
 
       outline: {
@@ -133,7 +163,7 @@ export default withMermaid(
 
       darkModeSwitchLabel: 'Тема',
       lightModeSwitchTitle: 'Переключить на светлую тему',
-      darkModeSwitchTitle: 'Переключить на темную тему',
+      darkModeSwitchTitle: 'Переключить на тёмную тему',
       sidebarMenuLabel: 'Меню',
       returnToTopLabel: 'Наверх'
     },

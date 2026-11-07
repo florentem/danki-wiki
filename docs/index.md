@@ -26,12 +26,12 @@ features:
     link: /servers/community
   - icon: '<span class="material-symbols-outlined">precision_manufacturing</span>'
     title: Сервер Редстоун
-    details: Инженерный сервер на Paper 26.2 с ботами, счетчиками воронок и тиковыми зонами.
+    details: Инженерный сервер на Paper 26.3 с ботами, счётчиками воронок и тиковыми зонами.
     link: /servers/redstone
   - icon: '<span class="material-symbols-outlined">castle</span>'
     title: Сервер Лихтенштейн
     details: Закрытый сервер для доверенного круга участников и площадка Олимпийского комитета.
-    link: /servers/circle
+    link: /servers/lichtenstein
 ---
 
 ## <span class="material-symbols-outlined">menu_book</span> Разделы документации
@@ -50,16 +50,16 @@ features:
 * [Сервер Лобби](/servers/lobby) — транзитный хаб для перехода между доступными мирами.
 * [Сервер Комьюнити](/servers/community) — основной строительный сервер: мир для проектов, мир артов, архивы миров и мир «Кошкиного дома».
 * [Сервер Редстоун](/servers/redstone) — описание миров технического полигона.
-* [Сервер Лихтенштейн](/servers/circle) — закрытый сервер для доверенного круга участников и площадка Олимпийского комитета.
+* [Сервер Лихтенштейн](/servers/lichtenstein) — закрытый сервер для доверенного круга участников и площадка Олимпийского комитета.
 
 ---
 
 ### <span class="material-symbols-outlined">palette</span> Кастомизация и поддержка
 * [Покраски и баджи](/donations/cosmetics) — градиенты никнейма, символы-баджи, порядок покупки и управление гардеробом.
-* [Благодарности и расходы](/donations/donations) — статьи расходов сервера и список поддержавших проект.
+* [Финансирование и благодарности](/donations/donations) — статьи расходов сервера и список поддержавших проект.
 
 ---
 
 ### <span class="material-symbols-outlined">extension</span> Дополнительно
-* [Инструменты сервера Редстоун](/features/redstone-tools) — боты, счетчики воронок, тиковые зоны, запись редстоуна и команды Carpet.
+* [Инструменты сервера Редстоун](/features/redstone-tools) — боты, счётчики воронок, тиковые зоны, запись редстоуна и команды Carpet.
 * [Плагины и моды](/features/features) — установленные на серверах модификации.

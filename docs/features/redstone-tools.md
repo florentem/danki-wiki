@@ -3,7 +3,7 @@
 Редстоун-сервер работает на Paper исключительно ради паритета механик с [Pepeland](https://www.pepeland.net). Привычные технические моды вроде [Carpet](https://modrinth.com/project/TQTTVgYE), [Servux](https://modrinth.com/project/zQhsx8KF) или [ChunkDebug](https://modrinth.com/project/zQxjhDPq) не имеют полноценных плагинов из-за ограничений Paper API, поэтому нужный инструментал мы собирали по кусочкам: часть перенесли из форков ядра и плагинов, а недостающее навайбкодили своими патчами.
 
 ::: warning Экспериментальный функционал
-Этот функционал чертовски экспериментальный, поэтому местами может ломаться. со временем будем стараться улучшать и исправлять найденные баги, используйте на свой страх и риск, если нашли проблему - сообщайте через [тикеты](../general/requests.md) или лично в Discord (`@noosb`).
+Этот функционал чертовски экспериментальный, поэтому местами может ломаться. Со временем будем стараться улучшать и исправлять найденные баги, используйте на свой страх и риск, если нашли проблему — сообщайте через [обращения](../general/requests.md) или лично в Discord (`@noosb`).
 :::
 
 ---
@@ -21,7 +21,7 @@
 
 ## <span class="material-symbols-outlined">monitoring</span> Мониторинг в таб-листе (`/log`)
 
-* `/log tps`, `/log mspt`, `/log mobcaps`, `/log counter`, `/log spawn`, `/log clear`, `/log microtiming`, `movement`, `item`, `clear`
+* `/log tps`, `/log mspt`, `/log mobcaps`, `/log counter`, `/log spawn`, `/log microtiming`, `/log movement`, `/log item`, `/log clear`
 
 ---
 

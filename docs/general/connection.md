@@ -2,8 +2,9 @@
 
 ## <span class="material-symbols-outlined">layers</span> Версии
 
-* **Ядро**: `Paper 26.3`
-* Никакие клиентские моды не требуются. При желании — [Axiom](https://modrinth.com/project/N6n5dqoA) версии 6.x и другие клиентские моды со страницы [Плагины и моды](../features/features.md).
+* **Клиент игры**: `Minecraft: Java Edition 26.3`
+* **Ядро сервера**: `Paper 26.3`
+* Никакие обязательные клиентские моды не требуются: вход поддерживается с чистого ванильного клиента. При желании — [Axiom](https://modrinth.com/project/N6n5dqoA) версии 6.x и другие клиентские моды со страницы [Плагины и моды](../features/features.md).
 
 ---
 
