@@ -1,6 +1,6 @@
 # <span class="material-symbols-outlined">precision_manufacturing</span> Инструменты сервера Редстоун
 
-Редстоун-сервер работает на Paper исключительно ради паритета механик с [Pepeland](https://www.pepeland.net). Привычные технические моды вроде [Carpet](https://modrinth.com/project/TQTTVgYE), [Servux](https://modrinth.com/project/zQhsx8KF) или [ChunkDebug](https://modrinth.com/project/zQxjhDPq) не имеют полноценных плагинов из-за ограничений Paper API, поэтому нужный инструментал мы собирали по кусочкам: часть перенесли из форков ядра и плагинов, а недостающее навайбкодили своими патчами.
+Сервер Редстоун работает на Paper исключительно ради паритета механик с [Pepeland](https://www.pepeland.net). Привычные технические моды вроде [Carpet](https://modrinth.com/project/TQTTVgYE), [Servux](https://modrinth.com/project/zQhsx8KF) или [ChunkDebug](https://modrinth.com/project/zQxjhDPq) не имеют полноценных плагинов из-за ограничений Paper API, поэтому нужный инструментал мы собирали по кусочкам: часть перенесли из форков ядра и плагинов, а недостающее навайбкодили своими патчами.
 
 ::: warning Экспериментальный функционал
 Этот функционал чертовски экспериментальный, поэтому местами может ломаться. Со временем будем стараться улучшать и исправлять найденные баги, используйте на свой страх и риск, если нашли проблему — сообщайте через [обращения](../general/requests.md) или лично в Discord (`@noosb`).
@@ -77,8 +77,3 @@
 * **[MiniHUD](https://modrinth.com/project/UMxybHE8)** — оверлеи структур, мобкапов и хитбоксов. Для передачи некоторых строк необходимо включить `hudDataSync` во вкладке Generic.
 * **[ChunkDebug](https://modrinth.com/project/zQxjhDPq)** — карта загрузки чанков по `F6` (требует предварительного ввода `/labchunks hello`).
 * **[Capture & Playback](https://modrinth.com/project/Ebec9fX9)** — графический таймлайн для монтажа и редактирования редстоун-сигналов.
-
----
-
-> **НЕ ЯВЛЯЕТСЯ ОФИЦИАЛЬНЫМ СЕРВИСОМ MINECRAFT. НЕ ОДОБРЕНО И НЕ СВЯЗАНО С MOJANG ИЛИ MICROSOFT.**  
-> Проект является независимым строительным сервером и не имеет отношения к официальным ресурсам и администрации Pepeland ([pepeland.net](https://www.pepeland.net)).

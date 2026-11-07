@@ -85,9 +85,9 @@ export default withMermaid(
           text: 'Общая информация',
           collapsed: false,
           items: [
-            { text: 'Правила сети', link: '/general/rules' },
+            { text: 'Правила проекта', link: '/general/rules' },
             { text: 'Получение доступа', link: '/general/access' },
-            { text: 'Подключение к серверу', link: '/general/connection' },
+            { text: 'Подключение к проекту', link: '/general/connection' },
             { text: 'Формы заявок и обращений', link: '/general/requests' },
             { text: 'Вклад в проект', link: '/general/contributing' }
           ]
@@ -147,7 +147,7 @@ export default withMermaid(
       },
 
       footer: {
-        message: 'НЕ ЯВЛЯЕТСЯ ОФИЦИАЛЬНЫМ СЕРВИСОМ MINECRAFT. НЕ ОДОБРЕНО И НЕ СВЯЗАНО С MOJANG ИЛИ MICROSOFT.<br>Проект является независимым строительным сервером и не имеет отношения к официальным ресурсам и администрации Pepeland (<a href="https://www.pepeland.net" target="_blank" rel="noreferrer">pepeland.net</a>).',
+        message: 'НЕ ЯВЛЯЕТСЯ ОФИЦИАЛЬНЫМ СЕРВИСОМ MINECRAFT. НЕ ОДОБРЕНО И НЕ СВЯЗАНО С MOJANG ИЛИ MICROSOFT.<br>Проект является независимым строительным проектом и не имеет отношения к официальным ресурсам и администрации Pepeland (<a href="https://www.pepeland.net" target="_blank" rel="noreferrer">pepeland.net</a>).',
         copyright: '© 2026'
       },
 
