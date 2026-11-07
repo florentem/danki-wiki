@@ -76,8 +76,7 @@ export default withMermaid(
         { text: 'Главная', link: '/' },
         { text: 'Общая информация', link: '/general/rules' },
         { text: 'Серверы и миры', link: '/servers/overview' },
-        { text: 'Инструменты сервера Редстоун', link: '/features/redstone-tools' },
-        { text: 'Кастомизация и поддержка', link: '/donations/donations' }
+        { text: 'Поддержка', link: '/donations/donations' }
       ],
 
       sidebar: [
