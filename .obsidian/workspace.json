@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/features/features.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "features"
+              "title": "index"
             }
           }
         ]
@@ -190,14 +190,15 @@
   },
   "active": "f2c490344309c296",
   "lastOpenFiles": [
+    "docs/servers/overview.md",
+    "docs/servers/redstone.md",
+    "docs/servers/lobby.md",
+    "docs/features/features.md",
     "style-guide.md",
     "docs/index.md",
-    "docs/servers/redstone.md",
     "docs/general/access.md",
     "docs/general/contributing.md",
-    "docs/servers/lobby.md",
     "docs/servers/lichtenstein.md",
-    "docs/servers/overview.md",
     "docs/servers/community.md",
     "docs/features/redstone-tools.md",
     "docs/donations/cosmetics.md",
@@ -216,7 +217,6 @@
     "docs3/features/redstone-tools.md",
     "docs3/features/features.md",
     "docs3/donations/donations.md",
-    "docs3/donations/cosmetics.md",
     "docs3/servers",
     "docs3/general",
     "docs3/features",
