@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs3/features/features.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "features"
+              "title": "index"
             }
           }
         ]
@@ -190,6 +190,18 @@
   },
   "active": "f2c490344309c296",
   "lastOpenFiles": [
+    "docs/servers/community.md",
+    "docs/features/redstone-tools.md",
+    "docs/donations/cosmetics.md",
+    "docs/servers/lobby.md",
+    "docs/servers/overview.md",
+    "docs/public/favicon.svg",
+    "docs/general/rules.md",
+    "docs/general/requests.md",
+    "docs/general/contributing.md",
+    "docs/general/connection.md",
+    "docs/general/access.md",
+    "docs/index.md",
     "docs3/general/rules.md",
     "docs3/servers/redstone.md",
     "docs3/servers/overview.md",
@@ -200,26 +212,15 @@
     "docs3/style-guide.md",
     "docs3/features/redstone-tools.md",
     "docs3/features/features.md",
-    "docs/servers/overview.md",
     "docs3/donations/donations.md",
     "docs3/donations/cosmetics.md",
     "docs3/general/contributing.md",
     "docs3/general/requests.md",
     "docs3/servers/circle.md",
-    "docs3/index.md",
     "docs3/servers",
     "docs3/general",
     "docs3/features",
     "docs3/donations",
-    "docs3",
-    "docs/general/requests.md",
-    "docs/general/connection.md",
-    "docs/features/redstone-tools.md",
-    "docs/donations/cosmetics.md",
-    "docs/donations/donations.md",
-    "docs/features/features.md",
-    "docs/general/access.md",
-    "docs/general/rules.md",
-    "docs/servers/lobby.md"
+    "docs3"
   ]
 }

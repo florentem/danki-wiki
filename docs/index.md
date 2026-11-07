@@ -6,7 +6,7 @@ hero:
   text: "для строительного проекта Danki"
   tagline: "Несколько миров с разными целями, соблюдение паритета с Pepeland по механикам Minecraft и многое другое."
   actions:
-    - theme: brand
+    - theme: alt
       text: Получение доступа
       link: /general/access
     - theme: alt
